@@ -1,0 +1,83 @@
+/* Taylor Eisman */
+/* VFW 03/12 */
+/* Project 4 */
+
+header {
+	background-color: navy;
+	margin: 0px;
+	border: 1px dashed black;
+}
+
+body {
+	background-color: gray;
+	font-family: Arial, Times, serif;
+}
+
+h1 {
+	color: silver;
+	font-weight: bold;
+	padding-left: 75px;
+	margin: 0px;
+}
+
+h2{
+	color: silver;
+	font-size: medium;
+	font-weight: bold;
+	margin: 0px;
+}
+
+#errors{
+	color: red;
+	font-size: smaller;
+	font-style: italic;
+	padding-top: 0px;
+}
+
+p {
+	color: silver;
+	font-size: small;
+	background-color: navy;
+}
+
+div #items {
+	background: blue;
+	border: black;
+}
+
+body > p {
+	color: black;
+	font-size: xx-small;
+	font-style: italic;
+}
+
+[type]. textarea {border: 1px solid navy;}
+[type="radios"] {border: none; width: inherit;}
+
+form {
+	color: silver;
+	font-size: medium;
+	font-weight: bold;
+	text-align: left;
+	padding: 5px;
+	background-color: navy;
+	border: 1px dashed black;
+	margin: 0px;
+}
+
+legend {
+	color: silver;
+	font-size: larger;
+}
+
+a.link{color: blue;}
+a.visited{color: red;}
+a.hover{color: gray;}
+a.active{color: black;}
+
+span {
+	color: red;
+	font-size: smaller;
+	font-style: italic;
+	padding-bottom: 0px;
+}
